@@ -27,8 +27,9 @@ def plot_molar_mass():
 
 # Gráfica 3: Viscosidad vs Temperatura
 def plot_viscosity_temperature():
-    temperatures = [0, 20, 40, 60, 80, 100]  # en grados Celsius
-    viscosities = [120, 90, 70, 50, 35, 20]  # viscosidad relativa (arbitraria)
+  
+    temperatures = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]  
+    viscosities = [150, 130, 110, 95, 80, 65, 50, 40, 30, 20]  
     
     plt.figure(figsize=(8, 5))
     plt.plot(temperatures, viscosities, marker='o', color='red')
